@@ -1,0 +1,58 @@
+body {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.topnav a {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  text-align: center;
+  font-size: 50px;
+  background-color: white;
+  color: black;
+
+}
+
+#cut {
+  font-weight: bolder;
+  line-height: 0.5px;
+}
+
+
+#contact {
+  font-family: 'Cookie', cursive;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: BlanchedAlmond
+}
+
+
+#emailUs {
+  color: black;
+  font-family: 'Nixie One', cursive;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#email {
+  font-family: 'Khand', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding-top: 0px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}

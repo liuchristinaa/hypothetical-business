@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="CSS/businessStyle.css">
+      <link href="https://fonts.googleapis.com/css?family=Cookie|Khand|Libre+Barcode+128+Text|Nixie+One|Pathway+Gothic+One|Special+Elite" rel="stylesheet">
+      <script src="JavaScript/business.js" text="text/javascript"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  </head>
+
+
+  <body>
+
+
+    <header id="name">half + half</header>
+
+    <br></br>
+    <div class="topnav"><center>
+    <a id="home" href="home.html">HOME</a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <a id="menu" href="menu.html">MENU</a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <a id="contact" href="contact.html">CONTACT</a></center>
+
+
+    </div>
+    <h1 id="cut"><center>_________________________________________________________________________</h1><center>
+    <div> </div>
+    <br></br>
+    <h2 id="Ourstory">Our Story
+    <div> ---------------------------------------------- </div>
+    <p id="story">&nbsp; half + half is an independently owned and operated ice creamery dedicated to providing high quality, delicious ice cream to all. All our ice cream is non-GMO and cruelty-free! Our dairy comes from independent family farms and all ingredients are loccaly sourced. We have four locations across the United States: LA, San Francisco, and New York City, with a brand new cafe-style storefront opening INSIDE the Adobe World Headquarters in San Jose!  </div>
+    <p id="story">&nbsp; &nbsp; The story of half+half began when our founders, Christina and Cori, met at a farmer’s market in 2016 and instantly hit it off, deciding to combine their skills of ice-cream-flavor inventing and superior cow-herding (respectively). After a lot of tasting, testing, and experimentation, the phenomenally unique flavors like pancakes, mochi, guava, and hibiscus tea were created. And thus half+half was born, and we’ve been churning out even more delicious flavors ever since.</div>
+
+  </h2>
+  <br></br>
+    <!-- <h5 id="story">half + half is an independently owned and operated ice creamery dedicated to providing high quality, delicious ice cream to all. All our ice cream is non-GMO and cruelty-free!
+    <p id="story">The story of half+half began when our founders, Christina and Cori, met at a farmer’s market in 2016 and instantly hit it off, deciding to combine their skills of ice-cream-flavor inventing and superior cow-herding (respectively). After a lot of tasting, testing, and experimentation, the phenomenally unique flavors like pancakes, mochi, guava, and hibiscus tea were created. And thus half+half was born, and we’ve been churning out even more delicious flavors ever since.
+    </h5> -->
+
+  <!-- pictures -->
+  <img src="images/all ice cream.jpg" style="width:1180px;height:450px;">
+
+  <br></br>
+  <h2 id="event">Events
+    <div> --------------------------------</h2></div>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images\bananacombine2.jpg" style="width:100%">
+        <div class="text">
+          <p> June 5th </p>
+          <div> Banana Charity Fundraiser </div>
+          <p> Come out and help fix the worldwide banana crisis! </p>
+          <div> Bananas are actually going extinct at an alarming </div>
+          <div> rate due to a disease called Fusarium Wilt. So, </div>
+          <div> half+half partnered with a charity called Respect </div>
+          <div> the Bananas to help gather donations and support. </div>
+          <p></p>
+          <div> On June fifth, come by half+half and with every </div>
+          <div> purchase of our (Save the) Bananas flavor, we'll </div>
+          <div> donate half the proceeds to combating the Wilt! </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/icecreamdaycombine.jpg" style="width:100%">
+        <div class="text">
+          <p> August 20th </p>
+          <div> Ice Cream Fest </div>
+          <p> Celebrate the origins of half+half! </p>
+          <div> half+half started as a company dedicated to </div>
+          <div> creating wacky and unique flavors of ice cream. </div>
+          <div> To honor our humble beginnings, we'd like to </div>
+          <div> extend the chance to do the same to you!</div>
+          <p></p>
+          <div> Every August 20th, our kitchen is yours.* </div>
+          <div> Bring any two ingredients and we'll make them </div>
+          <div> into an ice cream cone for you! </div>
+          <div> <em> *limit to the first 200 customers </em> </div>
+
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images\pinkgreencombine.jpg" style="width:100%">
+        <div class="text">
+          <p> July 15th </p>
+          <div> National Ice Cream Day </div>
+          <p> Join us for free ice cream and festivities! </p>
+          <div> Every summer ice cream shops around the </div>
+          <div> nation celebrate the delicious treat with </div>
+          <div> national Ice Cream Day, and half+half loves </div>
+          <div> joining in on the spirit and celebrations. </div>
+          <p></p>
+          <div> On July fifteenth, half+half will hand out </div>
+          <div> a <em> free </em> ounce of ice cream to every customer </div>
+          <div> who comes through the door until we run out! </div>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+  </body>
+</html>
