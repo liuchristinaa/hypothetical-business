@@ -13,13 +13,7 @@ body {
 
 }
 
-#cut {
-  font-weight: bolder;
-  line-height: 0.5px;
-}
-
-
-#contact {
+#locations {
   font-family: 'Cookie', cursive;
   font-weight: lighter;
   font-size: 100px;
@@ -30,29 +24,18 @@ body {
 }
 
 
-#emailUs {
+#cut {
+  font-weight: bolder;
+  line-height: 0.5px;
+}
+
+/* #locationtext {
   color: black;
   font-family: 'Nixie One', cursive;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bolder;
+  text-align:left;
+  background-color: BlanchedAlmond;
+  text-align: center;
 }
-
-#email {
-  font-family: 'Khand', sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-
-
-
-.column {
-    float: left;
-    width: 50%;
-    padding-top: 0px;
-}
-
-.row:after {
-    display: table;
-    clear: both;
-}
+*/
